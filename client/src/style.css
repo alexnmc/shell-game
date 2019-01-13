@@ -262,7 +262,7 @@ body {
         }
 
         .navbar{
-
+          margin-top: -70px;
           margin-bottom: 40px;
         }
 
@@ -271,6 +271,7 @@ body {
 
        body{
           height: 670px;
+          width:auto;
           margin-left: 0px;
           margin-right: 0px;
           margin-top:0px;
@@ -280,7 +281,7 @@ body {
         }
 
         .wrap {
-         width:200px;
+         width:0px;
         }
 
         .h1wrapper {
@@ -337,10 +338,15 @@ body {
 
       
       .btn{
-        width:90px;
-        height: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width:100px;
+        height: 50px;
+        padding:0px;
         font-size: 15px;
-        margin-left: 150px;
+        margin-left: 130px;
+        
       }
       
       
