@@ -9,7 +9,7 @@
   },
   "engines": {
     "node": "8.12.0"
-},
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/alexnmc/shell-game.git"
@@ -26,5 +26,4 @@
     "mongoose": "^5.4.3",
     "morgan": "^1.9.1"
   }
-  
 }
