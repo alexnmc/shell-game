@@ -8,16 +8,16 @@ const PORT = process.env.PORT || 8000
 
 app.use(express.json()) 
 app.use(morgan('dev'))  
-
-
-
-app.use('/players', require('./routes/player'))
 app.use(express.static(path.join(__dirname, "client", "build")))
 
 
+app.use('/players', require('./routes/player'))
 
 
-mongoose.connect('mongodb://localhost:27017/cups-game', {useNewUrlParser: true}, () => {
+
+
+
+mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost:27017/cups-game', {useNewUrlParser: true}, () => {
     console.log('connect to the db captain!')
 })
 
