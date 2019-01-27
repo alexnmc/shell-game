@@ -263,7 +263,6 @@ class Game extends Component {
     }
 
     
-
     resetBall3 = () => {
         this.setState({
             box3: { text: ".", fontSize: "340px" , background: "radial-gradient(circle at 100px 100px, rgba(173, 114, 43, 0.164), rgba(90, 51, 15, 0.400))"}
@@ -278,13 +277,7 @@ class Game extends Component {
         this.enableShuffle()
     }
 
-    reset2 = () => {
-        this.setState({
-            box2: { background: 'radial-gradient(circle at 100px 100px, rgba(153, 103, 42, 0.397), rgba(83, 47, 9, 0.89))' }
-        })
-        this.enableShuffle()
-    }
-
+    
     reset3 = () => {
         this.setState({
             box3: { background: 'radial-gradient(circle at 100px 100px, rgba(153, 103, 42, 0.397), rgba(83, 47, 9, 0.89))' }
