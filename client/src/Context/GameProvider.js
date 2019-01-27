@@ -170,9 +170,9 @@ class Game extends Component {
             this.setState({
                 
                 btn:  { color: ' rgb(195, 28, 2) '}, //red
-                box1: { animation:"shake 1.6s , move  1.7s", animationIterationCount: 'infinite, 2' },
-                box2: { animation:"shake 1.5s , move2 1.7s", animationIterationCount: 'infinite, 2' },
-                box3: { animation:"shake 1.7s , move3 1.7s", animationIterationCount: 'infinite, 2' },
+                box1: { animation:"shake 1.6s , move  1.7s", animationIterationCount: 'infinite, 3' },
+                box2: { animation:"shake 1.5s , move2 1.7s", animationIterationCount: 'infinite, 3' },
+                box3: { animation:"shake 1.7s , move3 1.7s", animationIterationCount: 'infinite, 3' },
                 h1: { text: `${this.props.user.name ? this.props.user.name.toUpperCase() + ","  :  ' '} CHOOSE ONE:`, color: 'rgb(202, 143, 77)'},
                 h1wrapper: { backgroundColor: 'rgba(58, 39, 17, 0.980)'},
                 
@@ -234,7 +234,7 @@ class Game extends Component {
             setTimeout(this.reset1, 3100)
         } else if ( Math.floor((Math.random() * 3) + 1) === 2) {
             this.setState ({
-                box2: { background: "radial-gradient(circle at 100px 100px, rgba(173, 114, 43, 0.164), rgba(90, 51, 15, 0.400))", text: '.', fontSize: "570px" }
+                box3: { background: "radial-gradient(circle at 100px 100px, rgba(173, 114, 43, 0.164), rgba(90, 51, 15, 0.400))", text: '.', fontSize: "570px" }
             })
             setTimeout(this.resetBall2, 1400)
             setTimeout(this.reset2, 3100)
