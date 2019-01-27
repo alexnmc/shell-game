@@ -164,23 +164,35 @@ class Game extends Component {
     }
 
     
+    
+    shake = () => {
+        this.setState({
+            box1: { animation:"shake 1.6s ", animationIterationCount: 'infinite' },
+            box2: { animation:"shake 1.5s ", animationIterationCount: 'infinite' },
+            box3: { animation:"shake 1.7s ", animationIterationCount: 'infinite' }
+        })
+    }
+    
+    
     function4 = () => {     // shuffle button
         console.log(this.state.functionOn)
         if( this.state.functionOff === false && this.state.functionOn === false) {
             this.setState({
                 
                 btn:  { color: ' rgb(195, 28, 2) '}, //red
-                box1: { animation:"shake 1.6s , move  1.7s", animationIterationCount: 'infinite, 3' },
-                box2: { animation:"shake 1.5s , move2 1.7s", animationIterationCount: 'infinite, 3' },
-                box3: { animation:"shake 1.7s , move3 1.7s", animationIterationCount: 'infinite, 3' },
+                box1: { animation:" move  1.4s", animationIterationCount: '3' },
+                box2: { animation:" move2 1.4s", animationIterationCount: '3' },
+                box3: { animation:" move3 1.4s", animationIterationCount: '3' },
                 h1: { text: `${this.props.user.name ? this.props.user.name.toUpperCase() + ","  :  ' '} CHOOSE ONE:`, color: 'rgb(202, 143, 77)'},
                 h1wrapper: { backgroundColor: 'rgba(58, 39, 17, 0.980)'},
                 
             })
-            setTimeout(this.disableShuffle, 3500)
+            setTimeout(this.disableShuffle, 4300)
+            setTimeout(this.shake, 4300)
         }
     }
             
+    
     reset = () => {  // enter button on login page 
            
         this.setState({
