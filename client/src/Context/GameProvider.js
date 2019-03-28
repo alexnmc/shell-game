@@ -65,7 +65,7 @@ class Game extends Component {
                         box1: { background: "radial-gradient(circle at 100px 100px, rgba(173, 114, 43, 0.164), rgba(90, 51, 15, 0.438))"},
                         box2: { background: "radial-gradient(circle at 100px 100px, rgba(173, 114, 43, 0.164), rgba(90, 51, 15, 0.438))" },
                         box3: { background: "radial-gradient(circle at 100px 100px, rgba(173, 114, 43, 0.164), rgba(90, 51, 15, 0.438))"},
-                        h1: { text: 'WINNER!' , color: "rgba(36, 26, 11, 0.800)"},
+                        h1: { text: 'WINNER!' , color: "rgba(36, 26, 11, 0.800)", animation: 'mymove 3s'},
                         h1wrapper: { backgroundColor: "rgba(148, 105, 56, 0.200)"  },
                     }
                 })
@@ -78,7 +78,7 @@ class Game extends Component {
                         box2: { background: "radial-gradient(circle at 100px 100px, rgba(173, 114, 43, 0.164), rgba(90, 51, 15, 0.438))" },
                         box3: { background: "radial-gradient(circle at 100px 100px, rgba(173, 114, 43, 0.164), rgba(90, 51, 15, 0.438))"},
                        
-                        h1: { text: 'YOU LOST!' , color: "rgba(36, 26, 11, 0.800)"},
+                        h1: { text: 'YOU LOST!' , color: "rgba(36, 26, 11, 0.800)", animation: 'mymove 3s'},
                         h1wrapper: { backgroundColor: "rgba(148, 105, 56, 0.200)" },
                     }
                 })
@@ -103,7 +103,7 @@ class Game extends Component {
                         box1: { background: "radial-gradient(circle at 100px 100px, rgba(173, 114, 43, 0.164), rgba(90, 51, 15, 0.438))"},
                         box2: { background: "radial-gradient(circle at 100px 100px, rgba(173, 114, 43, 0.164), rgba(90, 51, 15, 0.438))" },
                         box3: { background: "radial-gradient(circle at 100px 100px, rgba(173, 114, 43, 0.164), rgba(90, 51, 15, 0.438))"},
-                        h1: { text: 'WINNER!' , color: "rgba(36, 26, 11, 0.800)"},
+                        h1: { text: 'WINNER!' , color: "rgba(36, 26, 11, 0.800)", animation: 'mymove 3s'},
                         h1wrapper: { backgroundColor: "rgba(148, 105, 56, 0.200)" },
                     }
                 })
@@ -115,7 +115,7 @@ class Game extends Component {
                         box1: { background: "radial-gradient(circle at 100px 100px, rgba(173, 114, 43, 0.164), rgba(90, 51, 15, 0.438))"},
                         box2: { background: "radial-gradient(circle at 100px 100px, rgba(173, 114, 43, 0.164), rgba(90, 51, 15, 0.438))" },
                         box3: { background: "radial-gradient(circle at 100px 100px, rgba(173, 114, 43, 0.164), rgba(90, 51, 15, 0.438))"},
-                        h1: { text: 'YOU LOST!' , color: "rgba(36, 26, 11, 0.800)"},
+                        h1: { text: 'YOU LOST!' , color: "rgba(36, 26, 11, 0.800)", animation: 'mymove 3s'},
                         h1wrapper: { backgroundColor: "rgba(148, 105, 56, 0.200)" },
                     }
                 })
@@ -141,7 +141,7 @@ class Game extends Component {
                         box1: { background: "radial-gradient(circle at 100px 100px, rgba(173, 114, 43, 0.164), rgba(90, 51, 15, 0.438))"},
                         box2: { background: "radial-gradient(circle at 100px 100px, rgba(173, 114, 43, 0.164), rgba(90, 51, 15, 0.438))" },
                         box3: { background: "radial-gradient(circle at 100px 100px, rgba(173, 114, 43, 0.164), rgba(90, 51, 15, 0.438))"},
-                        h1: { text: 'WINNER!' , color: "rgba(36, 26, 11, 0.800)"},
+                        h1: { text: 'WINNER!' , color: "rgba(36, 26, 11, 0.800)", animation: 'mymove 3s'},
                         h1wrapper: { backgroundColor: "rgba(148, 105, 56, 0.200)" },
                     }
                 })
@@ -153,7 +153,7 @@ class Game extends Component {
                         box1: { background: "radial-gradient(circle at 100px 100px, rgba(173, 114, 43, 0.164), rgba(90, 51, 15, 0.438))"},
                         box2: { background: "radial-gradient(circle at 100px 100px, rgba(173, 114, 43, 0.164), rgba(90, 51, 15, 0.438))" },
                         box3: { background: "radial-gradient(circle at 100px 100px, rgba(173, 114, 43, 0.164), rgba(90, 51, 15, 0.438))"},
-                        h1: { text: 'YOU LOST!' , color: "rgba(36, 26, 11, 0.877)"},
+                        h1: { text: 'YOU LOST!' , color: "rgba(36, 26, 11, 0.877)", animation: 'mymove 3s'},
                         h1wrapper: { backgroundColor: "rgba(148, 105, 56, 0.200)" },
                     }
                 })

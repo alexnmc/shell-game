@@ -13,6 +13,8 @@ class PlayerProvider extends Component {
         }
     }
 
+
+
     getPlayer = () => {// I am not using this method..the addPlayer method does it's job..
         axios.get('/players').then(response => {
             this.setState({
