@@ -58,7 +58,7 @@ class Game extends Component {
                 }, ()=>{
                     console.log(this.state.functionOn)
                 })
-            if( Math.floor((Math.random() * 2) + 1)===1) {
+            if( Math.floor((Math.random() * 2) + 1) === 1) {
                
                 this.setState( prevState => {
                     return {
@@ -97,7 +97,7 @@ class Game extends Component {
             }, ()=>{
                 console.log(this.state.functionOn)
             })
-            if( Math.floor((Math.random() * 2) + 1)===1) {
+            if( Math.floor((Math.random() * 2) + 1) === 1) {
                 this.setState( prevState => {
                     return {
                         box1: { background: "radial-gradient(circle at 100px 100px, rgba(173, 114, 43, 0.164), rgba(90, 51, 15, 0.438))"},
@@ -167,9 +167,9 @@ class Game extends Component {
     
     shake = () => {
         this.setState({
-            box1: { animation:"shake 1.6s ", animationIterationCount: 'infinite' },
-            box2: { animation:"shake 1.5s ", animationIterationCount: 'infinite' },
-            box3: { animation:"shake 1.7s ", animationIterationCount: 'infinite' }
+            box1: { animation:"shake 1.4s ", animationIterationCount: 'infinite' },
+            box2: { animation:"shake 1.3s ", animationIterationCount: 'infinite' },
+            box3: { animation:"shake 1.5s ", animationIterationCount: 'infinite' }
         })
     }
     
@@ -252,7 +252,6 @@ class Game extends Component {
             setTimeout(this.resetBall3, 1400)
             setTimeout(this.reset3, 3100)
         }
-            
     }
         
     
