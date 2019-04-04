@@ -306,7 +306,7 @@ input{
         }
 
          h1{
-           font-size:20px;
+           font-size:22px;
          }
        
        .whichCup{
@@ -326,7 +326,7 @@ input{
         width: 90px;
         font-size: 120px;
         border: 2px solid rgba(58, 30, 15, 0.747);
-        border-bottom: 3.5px solid  rgba(58, 30, 15, 0.924);
+        border-bottom: 3px solid  rgba(58, 30, 15, 0.884);
         background: radial-gradient(circle at 40px 40px, rgba(161, 109, 46, 0.534), rgba(82, 45, 8, 0.924) );
         box-shadow: 14px 0px 10px rgba(65, 63, 63, 0.274);
       
