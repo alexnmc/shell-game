@@ -167,9 +167,9 @@ class Game extends Component {
     
     shake = () => {
         this.setState({
-            box1: { animation:"shake 1.4s ", animationIterationCount: 'infinite' },
-            box2: { animation:"shake 1.3s ", animationIterationCount: 'infinite' },
-            box3: { animation:"shake 1.5s ", animationIterationCount: 'infinite' }
+            box1: { animation:"shake 1.8s ", animationIterationCount: 'infinite' },
+            box2: { animation:"shake 1.7s ", animationIterationCount: 'infinite' },
+            box3: { animation:"shake 1.8s ", animationIterationCount: 'infinite' }
         })
     }
     
@@ -180,15 +180,15 @@ class Game extends Component {
             this.setState({
                 
                 btn:  { color: ' rgb(195, 28, 2) '}, //red
-                box1: { animation:" move  1.2s", animationIterationCount: '3' },
-                box2: { animation:" move2 1.2s", animationIterationCount: '3' },
-                box3: { animation:" move3 1.2s", animationIterationCount: '3' },
+                box1: { animation:" move  1.3s", animationIterationCount: '3' },
+                box2: { animation:" move2 1.3s", animationIterationCount: '3' },
+                box3: { animation:" move3 1.3s", animationIterationCount: '3' },
                 h1: { text: `${this.props.user.name ? this.props.user.name.toUpperCase() + ","  :  ' '} CHOOSE ONE:`, color: 'rgb(202, 143, 77)'},
                 h1wrapper: { backgroundColor: 'rgba(58, 39, 17, 0.980)'},
                 
             })
-            setTimeout(this.disableShuffle, 3700)
-            setTimeout(this.shake, 3700)
+            setTimeout(this.disableShuffle, 3900)
+            setTimeout(this.shake, 3900)
         }
     }
             
