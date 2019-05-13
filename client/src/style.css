@@ -44,24 +44,24 @@ body {
 
  
   .box1:hover{
-     width: 243px;
-     height: 237px;
+     width: 237px;
+     height: 217px;
      border-top-left-radius: 127px;
      border-top-right-radius: 127px;
      border-bottom: 6px solid rgba(45, 23, 11, 0.986) ;
      
   }
   .box2:hover{
-     width: 243px;
-     height: 237px;
+     width: 237px;
+     height: 217px;
      border-top-left-radius: 127px;
      border-top-right-radius: 127px;
      border-bottom: 6px solid rgba(45, 23, 11, 0.986) ;
     
   }
   .box3:hover{
-     width: 243px;
-     height: 237px;
+     width: 237px;
+     height: 217px;
      border-top-left-radius: 127px;
      border-top-right-radius: 127px;
      border-bottom: 6px solid rgba(45, 23, 11, 0.986) ;
