@@ -88,7 +88,6 @@ body {
   }
   
   
-  
   .h1wrapper{ 
     display:flex;
     align-items: center;
@@ -145,19 +144,17 @@ body {
     text-align: end;
     margin-top: -28px;
     width: 220px;
-    margin-left:1060px;
+    margin-left:70vw;
     text-align: left;
   }
-  
-  
   
 .name {
     font-size: 30px;
     color:rgba(61, 38, 4, 0.849);
     text-align: end;
     margin-top: -40px;
-    width: 235px;
-    margin-left:1060px;
+    width: 240px;
+    margin-left:70vw;
     text-align: left;
   }
  
