@@ -2,9 +2,9 @@ body {
     background-image: url('./Photos/pine-texture.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    margin-top:70px;
-    margin-left: 100px;
-    margin-right: 100px;
+    padding-top:70px;
+    padding-left: 105px;
+    padding-right: 105px;
     display: block;
 }
 
@@ -144,8 +144,8 @@ body {
     color: rgba(61, 38, 4, 0.849); 
     text-align: end;
     margin-top: -28px;
-    width: 255px;
-    margin-left:1080px;
+    width: 220px;
+    margin-left:1060px;
     text-align: left;
   }
   
@@ -156,8 +156,8 @@ body {
     color:rgba(61, 38, 4, 0.849);
     text-align: end;
     margin-top: -40px;
-    width: 255px;
-    margin-left:1080px;
+    width: 235px;
+    margin-left:1060px;
     text-align: left;
   }
  
