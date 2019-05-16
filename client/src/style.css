@@ -49,23 +49,22 @@ body {
      border-top-left-radius: 127px;
      border-top-right-radius: 127px;
      border-bottom: 6px solid rgba(45, 23, 11, 0.986) ;
-     
   }
+  
   .box2:hover{
      width: 237px;
      height: 217px;
      border-top-left-radius: 127px;
      border-top-right-radius: 127px;
      border-bottom: 6px solid rgba(45, 23, 11, 0.986) ;
-    
   }
+  
   .box3:hover{
      width: 237px;
      height: 217px;
      border-top-left-radius: 127px;
      border-top-right-radius: 127px;
      border-bottom: 6px solid rgba(45, 23, 11, 0.986) ;
-
   }
 
   
@@ -87,7 +86,6 @@ body {
     animation: fade 1.5s;
   }
   
-  
   .h1wrapper{ 
     display:flex;
     align-items: center;
@@ -108,11 +106,9 @@ body {
   h1{
     color: rgb(202, 143, 71);
     /* font-size: 35px; */
-    
-   }
+  }
 
-  
-   .btn{
+  .btn{
     height: 43px;
     font-size: 20px;
     border: 4px solid  rgb(88, 53, 0);
@@ -126,7 +122,6 @@ body {
     font-size: 17px;
     color:white;
     box-shadow: 14px 14px 10px rgba(49, 48, 48, 0.26);
-    
   }
 
   
@@ -207,8 +202,7 @@ body {
   
 .navbar{
        margin-top: -50px;
-       
-    }
+}
 
 
 .link{
@@ -262,7 +256,8 @@ input{
     border-radius:5px;
     background-color:  rgba(82, 55, 22, 0.863);
     color:white;
-    font-size: 15px;
+    font-size: 13.5px;
+    padding: 1.5pt;
     font-weight: bolder;
     border:3px solid rgba(56, 38, 16, 0.911);
   }
