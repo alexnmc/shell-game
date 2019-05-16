@@ -197,9 +197,9 @@ class Game extends Component {
            
         this.setState({
             btn: { color: 'rgb(195, 28, 28)' },//red
-            box1: { background: 'radial-gradient(circle at 100px 100px, rgba(153, 103, 42, 0.397), rgba(83, 47, 9, 0.89))' },
-            box2: { background: 'radial-gradient(circle at 100px 100px, rgba(153, 103, 42, 0.397), rgba(83, 47, 9, 0.89))' },
-            box3: { background: 'radial-gradient(circle at 100px 100px, rgba(153, 103, 42, 0.397), rgba(83, 47, 9, 0.89))' },
+            box1: { background: 'radial-gradient(circle at 100px 100px, rgba(153, 103, 42, 0.315), rgba(82, 45, 8, 0.924))' },
+            box2: { background: 'radial-gradient(circle at 100px 100px, rgba(153, 103, 42, 0.315), rgba(82, 45, 8, 0.924))' },
+            box3: { background: 'radial-gradient(circle at 100px 100px, rgba(153, 103, 42, 0.315), rgba(82, 45, 8, 0.924))' },
             h1wrapper: { backgroundColor: 'rgba(78, 53, 22, 0.856)'},
             h1: { text: ''},
             functionOn: false

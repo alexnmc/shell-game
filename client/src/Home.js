@@ -28,7 +28,7 @@ class Home extends Component {
         event.preventDefault()
         this.props.addPlayer(this.state)
         this.props.reset()
-        this.props.history.push('/body')
+        this.props.history.push('/body') // gets us to the game
     }
    
     
