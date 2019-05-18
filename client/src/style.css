@@ -271,7 +271,7 @@ input{
 
  
  
-   @media only screen and (max-width: 1025px) {
+   @media only screen and (max-width: 1220px) {
 
         
         .link{
@@ -339,7 +339,7 @@ input{
         margin-top: 40px;
         margin-bottom: 0px;
         height: 90px;
-        width: 90px;
+        width: 92px;
         font-size: 120px;
         border: 2px solid rgba(58, 30, 15, 0.747);
         border-bottom: 3px solid  rgba(58, 30, 15, 0.884);
@@ -364,6 +364,7 @@ input{
       .container{
         grid-gap: 40px;
         margin-left: 10px;
+        width:30vw;
       }
 
       
