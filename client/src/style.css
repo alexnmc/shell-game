@@ -37,6 +37,7 @@ body {
     color: rgba(168, 26, 26, 0.925);
     transition: all 0.7s ease-in-out 0.2s;
     position: relative;
+    cursor: pointer;
     display: flex;
     align-items:center;
     justify-content: center;
@@ -122,6 +123,7 @@ body {
     align-items: center;
     font-weight: bolder;
     font-size: 17px;
+    cursor: pointer;
     color:white;
     box-shadow: 14px 14px 10px rgba(49, 48, 48, 0.26);
   }
