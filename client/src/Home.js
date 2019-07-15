@@ -34,23 +34,18 @@ class Home extends Component {
     
     
 render() {
-    console.log(this.props)
     return (     
    
         <div className="home">
-            
             <p>SHELL GAME</p>
-        
             <form className = 'form1' onSubmit={this.handleSubmit}>
                 <input type="text" 
                        name="name" 
                        value={ this.state.name} 
                        onChange={ this.handleChange } 
                        placeholder= "Enter Name" />
-                
                 <button className = 'btn1'>enter</button>
             </form>  
-                
         </div>
    )}
 }

@@ -127,7 +127,6 @@ class Game extends Component {
 
     
     function3 = () => {
-        console.log(this.state.functionOn)
         if( this.state.functionOn === true) {
             this.buttonLight()
             this.setState({
@@ -178,7 +177,6 @@ class Game extends Component {
         console.log(this.state.functionOn)
         if( this.state.functionOff === false && this.state.functionOn === false) {
             this.setState({
-                
                 btn:  { color: ' rgb(195, 28, 2) '}, //red
                 box1: { animation:" move  1.3s", animationIterationCount: '3' },
                 box2: { animation:" move2 1.3s", animationIterationCount: '3' },
